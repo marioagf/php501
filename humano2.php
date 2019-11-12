@@ -7,6 +7,11 @@ class Humano
     public function __construct($idadeObj){
         $this->idade = $idadeObj;
     }
+
+    public function __clone(){
+        echo "<br>clonando o objeto<br>";
+    }
+
     public function andar()
     {
         echo "Andando... e eu tenho " . $this->idade;
