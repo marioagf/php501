@@ -25,10 +25,10 @@ class Produto
         return $this->preco;
     }
 
-    public function setNome(){
+    public function setNome($nome){
         $this->nome = $nome;
     }
-    public function setPreco(){
+    public function setPreco($preco){
         $this->preco = $preco;
     }
 }
